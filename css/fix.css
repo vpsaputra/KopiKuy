@@ -95,6 +95,7 @@ img {
 nav,
 footer {
   background-color: var(--color-accent);
+  z-index: 500;
 }
 .nav-item a,
 footer a {
