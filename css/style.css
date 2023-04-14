@@ -1,8 +1,5 @@
 a {
-  /* menghilangkan garis bawah pada link */
   text-decoration: none;
-
-  /* menghilangkan warna bawaan pada link */
   color: unset;
 }
 
@@ -12,14 +9,10 @@ h2 {
 }
 
 img {
-  /* 
-      mengatur agar semua elemen img memiliki panjang maksimal 100% agar
-      tidak besar gambar tidak melebihi layar ataupun pembungkus
-   */
   max-width: 100%;
 }
 
-header, /* penting */
+header,
 section {
   /*
     padding mengatur jarak ke dalam
@@ -45,6 +38,7 @@ section {
 
 .judul-header {
   margin-bottom: 20px;
+  margin-top: 80px;
 }
 
 .subjudul-header {
