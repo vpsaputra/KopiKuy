@@ -141,18 +141,15 @@ terkait layout pada CSS untuk dapat memahami secara penuh
 
 /* About US */
 
-.about-us {
-  /* max-width: 80%; mengatur panjang maksimal elemen tidak boleh melebihi 80% layar */
-  max-width: 80%;
-
-  /* margin-left dan margin-right auto akan membuat posisi elemen berada di tengah */
-  margin-left: auto;
+/* .about-us {
+  max-width: 80%;  diganti w-75
+  margin-left: auto; mx-auto
   margin-right: auto;
-}
+} */
 
-.judul-about-us {
-  margin-bottom: 30px;
-}
+/* .judul-about-us {
+  margin-bottom: 30px; mb-3
+} */
 
 /* 
    penulisan .about-us img {} berarti mengatur elemen img 
@@ -290,12 +287,9 @@ p.testimoni {
 } */
 
 @media (max-width: 760px) {
-  .navigasi {
-    display: none;
-  }
-  .logo {
+  /* .logo {
     margin-right: auto;
-  }
+  } */
 
   .shop {
     margin-right: 20px;
