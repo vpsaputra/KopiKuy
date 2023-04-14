@@ -1,0 +1,56 @@
+*:root {
+  --color-primary: #25181a;
+  --color-secondary: #7c573c;
+  --color-accent: #331d19;
+}
+
+@font-face {
+  font-family: "Leiko";
+  src: url(../fonts/leiko-regular.otf);
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/poppins.woff2);
+}
+
+.card {
+  box-shadow: inset 2px -2px #9e634c, 0.4em 0 0.4em var(--color-accent);
+  text-decoration: none;
+  border-radius: 24px;
+  background-color: #c89b6f;
+  color: var(--color-accent);
+}
+.card a {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+.card a:hover {
+  background-color: #fff;
+  color: var(--color-accent);
+}
+nav,
+footer {
+  background-color: var(--color-accent);
+}
+.nav-item a,
+footer a {
+  letter-spacing: 2px;
+  font-family: Leiko;
+  color: #d6ac8c;
+}
+
+.container p {
+  font-family: Poppins;
+  color: var(--color-primary);
+}
+
+h2 {
+  letter-spacing: 1px;
+  font-family: Dancing Script;
+}

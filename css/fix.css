@@ -1,0 +1,114 @@
+*:root {
+  --color-primary: #25181a;
+  --color-secondary: #7c573c;
+  --color-accent: #331d19;
+}
+
+@font-face {
+  font-family: "Leiko";
+  src: url(../fonts/leiko-regular.otf);
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url(../fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/poppins.woff2);
+}
+@font-face {
+  font-family: "Sunday Coffee";
+  src: url(../fonts/Sundaycoffee.ttf);
+}
+
+* {
+  font-family: Poppins;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* agar scroll ketika klik pada navigasi menjadi halus */
+  scroll-behavior: smooth;
+}
+
+/* CSS Index/Home */
+.logo-kalisani {
+  font-family: Sunday Coffee;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  background-color: #000;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: outset 2px -2px #9e634c, 0.4em 0 0.4em var(--color-secondary);
+}
+section {
+  /* text-align mengatur rata tulisan, bisa bernilai: left, right, center, justify */
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.olshop img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+/* CSS Produk */
+
+.card {
+  box-shadow: inset 2px -2px #9e634c, 0.4em 0 0.4em var(--color-accent);
+  text-decoration: none;
+  border-radius: 24px;
+  background-color: #c89b6f;
+  color: var(--color-accent);
+}
+.card:hover {
+  background-color: white;
+}
+@media (min-width: 561px) {
+  .card:hover {
+    transform: scale(1.1);
+    transform: translateY(-2em);
+  }
+}
+.card a {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+.card a:hover {
+  background-color: #fff;
+  border: var(--color-primary) solid 2px;
+  color: var(--color-accent);
+}
+
+.card img {
+  aspect-ratio: 1/1 !important;
+  object-fit: cover !important;
+}
+nav,
+footer {
+  background-color: var(--color-accent);
+}
+.nav-item a,
+footer a {
+  letter-spacing: 2px;
+  font-family: Leiko;
+  color: #d6ac8c;
+}
+
+.container p {
+  font-family: Poppins;
+  color: var(--color-primary);
+}
+
+h2 {
+  letter-spacing: 1px;
+  font-family: Dancing Script;
+}
