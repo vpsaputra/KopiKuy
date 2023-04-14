@@ -94,6 +94,7 @@ img {
 }
 nav,
 footer {
+  /* width: 100%; */
   background-color: var(--color-accent);
   z-index: 500;
 }
