@@ -245,7 +245,6 @@ terkait layout pada CSS untuk dapat memahami secara penuh
   width: 30%;
   padding: 0px;
 
-  background-color: #fff;
   color: #eee6dc;
 
   /* ditambah dari sini*/
@@ -301,10 +300,9 @@ p.testimoni {
     padding-top: 40px;
   }
 
-  .col-kiri
-  /* .col-kanan  */ {
+  /* .col-kiri .col-kanan {
     width: 100%;
-  }
+  } */
 
   .col-produk,
   .col-team {
