@@ -290,6 +290,12 @@ p.testimoni {
     margin-right: auto;
   } */
 
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+
   .shop {
     margin-right: 20px;
   }
@@ -317,4 +323,11 @@ p.testimoni {
   /* .col-kontak {
     width: 50%;
   } */
+}
+
+@media (max-width: 667px) {
+  .col-kiri,
+  .col-kanan {
+    width: 100%;
+  }
 }
